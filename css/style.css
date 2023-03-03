@@ -1,0 +1,44 @@
+
+/* Base */
+.animated-div {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  top: 20%;
+}
+.txt1 {
+  font-size: 4vw;
+}
+.txt2 {
+  font-size: 3vw;
+}
+.txt3 {
+  font-size: 2vw;
+}
+span {
+    display: block;
+  position: relative;
+  overflow:hidden;
+  white-space: nowrap;
+  animation: typewriter 8s steps(44) 2s infinite;
+    /* blinkTextCursor 500ms infinite; */
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 375px;
+  }
+}
+.tag1 {
+  color: #fff;
+  background-color: #0d6efd;
+}
+.tag1:hover {
+  background-color: #fff;
+  outline: 2px solid #0d6efd;
+  color: #0d6efd;
+}
